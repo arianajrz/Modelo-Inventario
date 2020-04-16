@@ -1,9 +1,9 @@
-<?php
+//<?php
 	/**
 	 * 
 	 */
 
-	include('Class.Conexion.php');
+	/*include('Class.Conexion.php');
 
 	class CrearUsuarios
 	{
@@ -13,7 +13,7 @@
 			# code...
 		}
 
-		public function GuardarUsuario($user, $apellido, $pass, $fecha,$tipo)
+		public function GuardarUsuario( $apellido, $pass, $fecha,$tipo)
 		{
 			$usuario = new Conexion();
 			$query="INSERT INTO `usuarios`(`Nombre`, `Apellido`, `Tipo`, `Password`, `FechaNac`, `Estado`)  VALUES ('$user', '$apellido', '$pass', '$fecha, '$tipo') ";
@@ -24,3 +24,4 @@
 		}
 	}
 ?>
+*/
