@@ -2,7 +2,7 @@
 				<div class="row black">
 					<div class="s 12 center-align">
 						<span class="white-text ">
-							Ariana Juárez &copy; 2020
+							Ariana y Leslie &copy; 2020
 						</span>
 					</div>
 				</div>

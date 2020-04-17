@@ -11,7 +11,7 @@
 	  </div>
 	</div>
 
-	<form class = "col s12 center-align" method="post" action="">
+	<form class = "col s12 center-align" method="post" action="?controller=Us.Controller & action=guardar">
 		<div class = "row">
 			<div class = "input-field col s12">
 				<i class = "material-icons prefix">account_circle</i>
@@ -43,7 +43,7 @@
 			<div class = "input-field col s12">
 				<i class = "material-icons prefix">date_range</i>
 				<label for="Icon_date">Fecha de Nacimiento</label>
-				<input type="date" placeholder = "Fecha" class="datepicker" id="date">
+				<input type="date" name="fecha" placeholder = "Fecha" class="datepicker" id="date">
 			</div>
 		</div>
 

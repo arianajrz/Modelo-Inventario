@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.34-dev-7, created on 2020-04-15 18:42:26
+/* Smarty version 3.1.34-dev-7, created on 2020-04-17 20:48:26
   from 'C:\xampp\htdocs\ModeloInventario-master1\Modelo-Inventario\templates\CrearUsuario.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.34-dev-7',
-  'unifunc' => 'content_5e973972204305_00601324',
+  'unifunc' => 'content_5e99f9fab84242_81088467',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'dfcb08b6f5c6ffbba8ba20e502b9deaf015a2930' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ModeloInventario-master1\\Modelo-Inventario\\templates\\CrearUsuario.tpl',
-      1 => 1586826130,
+      1 => 1587149005,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5e973972204305_00601324 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5e99f9fab84242_81088467 (Smarty_Internal_Template $_smarty_tpl) {
 echo '<script'; ?>
 >
     $(document).ready(function() {
@@ -36,7 +36,7 @@ echo '<script'; ?>
 	  </div>
 	</div>
 
-	<form class = "col s12 center-align" method="post" action="">
+	<form class = "col s12 center-align" method="post" action="?controller=Us.Controller & action=guardar">
 		<div class = "row">
 			<div class = "input-field col s12">
 				<i class = "material-icons prefix">account_circle</i>
@@ -68,7 +68,7 @@ echo '<script'; ?>
 			<div class = "input-field col s12">
 				<i class = "material-icons prefix">date_range</i>
 				<label for="Icon_date">Fecha de Nacimiento</label>
-				<input type="date" placeholder = "Fecha" class="datepicker" id="date">
+				<input type="date" name="fecha" placeholder = "Fecha" class="datepicker" id="date">
 			</div>
 		</div>
 

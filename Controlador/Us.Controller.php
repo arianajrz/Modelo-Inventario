@@ -1,10 +1,10 @@
-//<?php
+<?php
 
 	/**
 	 * 
 	 */
-	/*include ('./Modelo/Class.CrearUsuario.php');
-	class CrearUsuario
+	//include ('./Modelo/Class.CrearUsuario.php');
+	class Us
 	{
 		
 		function __construct()
@@ -14,15 +14,15 @@
 
 		public function guardar()
 		{
-			$guardaruser=new Inventarios();
+			$guardaruser=new CrearUsuario();
 
-			=$_POST['Usuario'];
-			$apellido =$_POST['Apellido'];
-			$pass=$_POST['Password'];
-			$fecha=$_POST['FechaNac'];
-			$tipo=$_POST['Estado'];
+			$nombre=$_POST['nombre'];
+			$apellido =$_POST['apellido'];
+			$pass=$_POST['pass'];
+			//$fecha=$_POST['fecha'];
+			$tipo=$_POST['tipo'];
 
-			$resultado=$guardarinvent->GuardarUsuarios(, $apellido, $pass, $fecha,$tipo);
+			$resultado=$guardaruser->GuardarUsuario($nombre, $apellido, $pass,$tipo);
 
 			if ($resultado)
 			{
@@ -35,4 +35,3 @@
 		}
 	}
 ?>
-*/
