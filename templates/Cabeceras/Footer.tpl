@@ -2,7 +2,7 @@
 				<div class="row black">
 					<div class="s 12 center-align">
 						<span class="white-text ">
-							Ariana y Leslie &copy; 2020
+							Ariana J. y Leslie R. &copy; 2020
 						</span>
 					</div>
 				</div>
