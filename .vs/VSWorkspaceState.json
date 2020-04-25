@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Controlador",
+    "\\Modelo",
+    "\\templates",
+    "\\templates\\Cabeceras"
   ],
+  "SelectedNode": "\\templates\\CrearUsuario.tpl",
   "PreviewInSolutionExplorer": false
 }

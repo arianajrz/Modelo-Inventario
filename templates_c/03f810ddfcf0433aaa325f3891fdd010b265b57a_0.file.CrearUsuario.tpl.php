@@ -1,9 +1,34 @@
-<script>
+<?php
+/* Smarty version 3.1.34-dev-7, created on 2020-04-25 07:03:18
+  from 'C:\xampp\htdocs\Modelo-Inventario\templates\CrearUsuario.tpl' */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.34-dev-7',
+  'unifunc' => 'content_5ea3c496590268_27119138',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '03f810ddfcf0433aaa325f3891fdd010b265b57a' => 
+    array (
+      0 => 'C:\\xampp\\htdocs\\Modelo-Inventario\\templates\\CrearUsuario.tpl',
+      1 => 1587790974,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_5ea3c496590268_27119138 (Smarty_Internal_Template $_smarty_tpl) {
+echo '<script'; ?>
+>
     $(document).ready(function() {
 		$('select').material_select();
     });
 	 
-</script>
+<?php echo '</script'; ?>
+>
 
 	<div class="row">
 	  <div class="col s12  blue lighten-4">
@@ -81,4 +106,5 @@
 			<input type="submit" value="CREAR" class="btn col s12 blue">
 		  </div>
 		</div>
-	</form>
+	</form><?php }
+}
