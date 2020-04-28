@@ -10,5 +10,16 @@
 			$usuario->close();
 			return $consulta;
 		}
+
+		public function AgregarUsuario($nom, $ape, $pass, $tipo)
+		{
+			//INSERT INTO `usuario`(`Nombre`, `Apellido`, `Password`, `Tipo`) VALUES ()
+
+			$usuario = new Conexion();
+			$query="INSERT INTO `usuarios`(`Nombre`, `Apellido`, `Password`, `Tipo`) VALUES ('$nom','$ape','$pass','$tipo');";
+			$consulta=$usuario->query($query);
+			$usuario->close();
+			return $consulta;
+		}
 	}
 ?>

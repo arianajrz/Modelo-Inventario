@@ -11,7 +11,7 @@
 	  </div>
 	</div>
 
-	<form class = "col s12 center-align" method="post" action="?controller=Us.Controller & action=guardar">
+	<form class = "col s12 center-align" method="post" action="?controller=User&action=GuardarUsuario">
 		<div class = "row">
 			<div class = "input-field col s12">
 				<i class = "material-icons prefix">account_circle</i>
@@ -58,8 +58,8 @@
 		<div class = "row">
 			<div class = "input-field col s12">
 				<i class = "material-icons prefix">vpn_key</i>
-				<input placeholder = "Password de Usuario" name="RepPass"  id = "RepPass" type = "password" class = "active validate" required />
-				<label for = "RepPass">Rep.Password</label>
+				<input placeholder = "Password de Usuario" name="RePass"  id = "RePass" type = "password" class = "active validate" required />
+				<label for = "RePass">Rep.Password</label>
 			</div>
 		</div>
 		

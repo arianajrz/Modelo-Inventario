@@ -1,6 +1,14 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Controlador",
+    "\\Framework",
+    "\\Librerias",
+    "\\Modelo",
+    "\\Recursos",
+    "\\templates",
+    "\\templates\\Cabeceras"
   ],
+  "SelectedNode": "\\templates\\Cabeceras\\Footer.tpl",
   "PreviewInSolutionExplorer": false
 }

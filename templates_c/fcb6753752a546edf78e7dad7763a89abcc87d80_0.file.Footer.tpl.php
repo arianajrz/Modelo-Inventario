@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.34-dev-7, created on 2020-04-17 21:11:34
+/* Smarty version 3.1.34-dev-7, created on 2020-04-24 18:48:58
   from 'C:\xampp\htdocs\ModeloInventario-master1\Modelo-Inventario\templates\Cabeceras\Footer.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.34-dev-7',
-  'unifunc' => 'content_5e99ff667343a6_52617622',
+  'unifunc' => 'content_5ea3187a085fd4_33675775',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'fcb6753752a546edf78e7dad7763a89abcc87d80' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ModeloInventario-master1\\Modelo-Inventario\\templates\\Cabeceras\\Footer.tpl',
-      1 => 1587150687,
+      1 => 1587746924,
       2 => 'file',
     ),
   ),
@@ -20,12 +20,12 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5e99ff667343a6_52617622 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ea3187a085fd4_33675775 (Smarty_Internal_Template $_smarty_tpl) {
 ?>		<footer>
 				<div class="row black">
 					<div class="s 12 center-align">
 						<span class="white-text ">
-							Ariana y Leslie &copy; 2020
+							Ariana J. y Leslie R. &copy; 2020
 						</span>
 					</div>
 				</div>

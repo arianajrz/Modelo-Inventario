@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.34-dev-7, created on 2020-04-15 18:25:41
+/* Smarty version 3.1.34-dev-7, created on 2020-04-28 19:25:05
   from 'C:\xampp\htdocs\ModeloInventario-master1\Modelo-Inventario\templates\Master.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.34-dev-7',
-  'unifunc' => 'content_5e973585c32dd2_59778007',
+  'unifunc' => 'content_5ea866f1f3f973_71392792',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '5b7d7a363bcfe08bddd0d937fb5d9ca58501362b' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ModeloInventario-master1\\Modelo-Inventario\\templates\\Master.tpl',
-      1 => 1586826779,
+      1 => 1588094580,
       2 => 'file',
     ),
   ),
@@ -25,10 +25,17 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:Cabeceras/Footer.tpl' => 1,
   ),
 ),false)) {
-function content_5e973585c32dd2_59778007 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ea866f1f3f973_71392792 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_subTemplateRender('file:Cabeceras/Header.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('titulo'=>'Home'), 0, false);
 ?>
 	<?php if (isset($_smarty_tpl->tpl_vars['e']->value)) {?>
+		<?php if (isset($_smarty_tpl->tpl_vars['men']->value)) {?>
+			<div align="center">
+				<h6><?php echo $_smarty_tpl->tpl_vars['men']->value;?>
+</h6>
+			</div>
+		<?php }?>
+
 		<div class="row">
 			<div class="col s4">
 			
@@ -65,5 +72,13 @@ $_smarty_tpl->_subTemplateRender('file:Cabeceras/Header.tpl', $_smarty_tpl->cach
 		</div>
 	<?php }
 $_smarty_tpl->_subTemplateRender('file:Cabeceras/Footer.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
-}
+?>
+
+
+
+
+
+						
+					
+<?php }
 }
