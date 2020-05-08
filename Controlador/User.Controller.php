@@ -34,6 +34,7 @@
 			{
 				$smarty->display('Master.tpl');
 			}
+		}
 
 		public function GuardarUsuario()
 	   {
