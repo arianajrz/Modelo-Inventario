@@ -28,6 +28,7 @@
 				$smarty->assign('usuario',$_SESSION['user']);
 				$smarty->assign('tipo',$_SESSION['tipo']);
 				$smarty->display('Master.tpl');
+
 			}
 			else 
 			{
@@ -62,7 +63,7 @@
 			
 			$smarty->assign('men',$men);
 			$smarty->assign('e','null');
-			$smarty->assign('vista','CrearUsuario');
+			$smarty->assign('vista','Inventario');
 			$smarty->assign('usuario',$_SESSION['user']);
 			$smarty->assign('tipo',$_SESSION['tipo']);
 			$smarty->display('Master.tpl');
