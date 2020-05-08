@@ -39,10 +39,3 @@
 		</div>
 	{/if}
 {include file='Cabeceras/Footer.tpl'}
-
-
-
-
-
-						
-					
