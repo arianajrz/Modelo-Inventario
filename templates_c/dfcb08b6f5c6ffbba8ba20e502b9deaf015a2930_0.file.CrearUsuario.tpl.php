@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.34-dev-7, created on 2020-04-28 19:25:17
+/* Smarty version 3.1.34-dev-7, created on 2020-04-17 20:48:26
   from 'C:\xampp\htdocs\ModeloInventario-master1\Modelo-Inventario\templates\CrearUsuario.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.34-dev-7',
-  'unifunc' => 'content_5ea866fd385016_87939986',
+  'unifunc' => 'content_5e99f9fab84242_81088467',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'dfcb08b6f5c6ffbba8ba20e502b9deaf015a2930' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ModeloInventario-master1\\Modelo-Inventario\\templates\\CrearUsuario.tpl',
-      1 => 1588094510,
+      1 => 1587149005,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5ea866fd385016_87939986 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5e99f9fab84242_81088467 (Smarty_Internal_Template $_smarty_tpl) {
 echo '<script'; ?>
 >
     $(document).ready(function() {
@@ -36,7 +36,7 @@ echo '<script'; ?>
 	  </div>
 	</div>
 
-	<form class = "col s12 center-align" method="post" action="?controller=User&action=GuardarUsuario">
+	<form class = "col s12 center-align" method="post" action="?controller=Us.Controller & action=guardar">
 		<div class = "row">
 			<div class = "input-field col s12">
 				<i class = "material-icons prefix">account_circle</i>
@@ -83,8 +83,8 @@ echo '<script'; ?>
 		<div class = "row">
 			<div class = "input-field col s12">
 				<i class = "material-icons prefix">vpn_key</i>
-				<input placeholder = "Password de Usuario" name="RePass"  id = "RePass" type = "password" class = "active validate" required />
-				<label for = "RePass">Rep.Password</label>
+				<input placeholder = "Password de Usuario" name="RepPass"  id = "RepPass" type = "password" class = "active validate" required />
+				<label for = "RepPass">Rep.Password</label>
 			</div>
 		</div>
 		
