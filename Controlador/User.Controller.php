@@ -35,7 +35,40 @@
 			}
        }
 
-	   public function GuardarUsuario()
+	   public function GuardarInvent()
+	   {
+			//echo "en guardar usuario";
+			$guardar = new Inventario();
+			$smarty=new Smarty();
+			session_start();
+
+			$nom=$_POST['nombre'];
+			$des=$_POST['descripcion'];
+			$precio=$_POST['precio'];
+			$cant=$_POST['cantidad'];
+
+			//var_dump($_POST);
+
+			$transaccion=$guardar->AgregarInvent($nom,$des,$precio,$cant);
+
+			if($transaccion)
+			{
+				$men= "producto ".$nombre." agregado";
+			}
+			else 
+			{
+				$men= "producto ".$nombre." no agregado";
+			}
+			
+			$smarty->assign('men',$men);
+			$smarty->assign('e','null');
+			$smarty->assign('vista','CrearUsuario');
+			$smarty->assign('usuario',$_SESSION['user']);
+			$smarty->assign('tipo',$_SESSION['tipo']);
+			$smarty->display('Master.tpl');
+
+
+		public function GuardarUsuario()
 	   {
 			//echo "en guardar usuario";
 			$guardar = new Usuarios();
