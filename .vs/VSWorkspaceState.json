@@ -2,9 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\Controlador",
+    "\\Framework",
+    "\\Librerias",
     "\\Modelo",
-    "\\templates"
+    "\\Recursos",
+    "\\templates",
+    "\\templates\\Cabeceras"
   ],
-  "SelectedNode": "\\templates\\CrearUsuario.tpl",
+  "SelectedNode": "\\Modelo\\Class.Conexion.php",
   "PreviewInSolutionExplorer": false
 }
