@@ -100,7 +100,7 @@
 			
 			$smarty->assign('men',$men);
 			$smarty->assign('e','null');
-			$smarty->assign('vista','Inventario');
+			$smarty->assign('vista','CrearProducto');
 			$smarty->assign('usuario',$_SESSION['user']);
 			$smarty->assign('tipo',$_SESSION['tipo']);
 			$smarty->display('Master.tpl');
