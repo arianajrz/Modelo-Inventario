@@ -70,6 +70,7 @@
 			$smarty->assign('usuario',$_SESSION['user']);
 			$smarty->assign('tipo',$_SESSION['tipo']);
 			$smarty->display('Master.tpl');
+			
        }
 
 	   public function GuardarInvent()

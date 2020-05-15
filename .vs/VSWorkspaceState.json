@@ -6,9 +6,8 @@
     "\\Librerias",
     "\\Modelo",
     "\\Recursos",
-    "\\templates",
-    "\\templates\\Cabeceras"
+    "\\templates"
   ],
-  "SelectedNode": "\\Modelo\\Class.Conexion.php",
+  "SelectedNode": "\\Controlador\\User.Controller.php",
   "PreviewInSolutionExplorer": false
 }

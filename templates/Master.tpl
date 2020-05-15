@@ -20,9 +20,11 @@
 				{if $vista=="CrearUsuario"}
 					{include file='CrearUsuario.tpl'}
 
-				{else if $vista == ""}
-
-					{else if $vista == ""}
+				{else if $vista == "CrearProducto"}
+					{include file='CrearProducto.tpl'}
+					
+				{else if $vista == "Inventario General"}
+					{include file='Inventario.tpl'}
 
 					{else if $vista == ""}
 
