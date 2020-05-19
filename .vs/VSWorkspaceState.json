@@ -6,8 +6,9 @@
     "\\Librerias",
     "\\Modelo",
     "\\Recursos",
-    "\\templates"
+    "\\templates",
+    "\\templates\\Cabeceras"
   ],
-  "SelectedNode": "\\Controlador\\User.Controller.php",
+  "SelectedNode": "\\templates\\MenuAdmin.tpl",
   "PreviewInSolutionExplorer": false
 }
