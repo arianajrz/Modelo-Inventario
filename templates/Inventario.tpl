@@ -22,13 +22,7 @@
 						<td>Precio</td>
 						<td>Cantidad</td>
 					</tr>
-					<?php 
-						$sql="SELECT * from `usuarios";
-						$result=mysqli_query($conexion,$sql);
-
-						while($mostrar=mysqli_fetch_array($result)){
-						?>
-
+					
 						<tr>
 							<td><?php echo $mostrar['id'] ?></td>
 							<td><?php echo $mostrar['Nombre'] ?></td>
@@ -36,9 +30,7 @@
 							<td><?php echo $mostrar['Precio'] ?></td>
 							<td><?php echo $mostrar['Cantidad'] ?></td>
 						</tr> 
-					<?php 
-					}
-					?>
+					
 				</table>
 
 			</div>

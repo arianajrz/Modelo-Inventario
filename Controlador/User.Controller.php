@@ -105,5 +105,6 @@
 			$smarty->display('Master.tpl');
 		
 	   }
+
     }
 ?>

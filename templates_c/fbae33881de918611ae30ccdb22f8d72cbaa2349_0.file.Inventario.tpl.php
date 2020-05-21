@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.34-dev-7, created on 2020-05-19 03:37:53
+/* Smarty version 3.1.34-dev-7, created on 2020-05-21 02:00:04
   from 'C:\xampp\htdocs\ModeloInventario-master1\Modelo-Inventario\templates\Inventario.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.34-dev-7',
-  'unifunc' => 'content_5ec33871a27672_46994070',
+  'unifunc' => 'content_5ec5c4841bd158_10896504',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'fbae33881de918611ae30ccdb22f8d72cbaa2349' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ModeloInventario-master1\\Modelo-Inventario\\templates\\Inventario.tpl',
-      1 => 1589852050,
+      1 => 1590019198,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5ec33871a27672_46994070 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ec5c4841bd158_10896504 (Smarty_Internal_Template $_smarty_tpl) {
 echo '<script'; ?>
 >
     $(document).ready(function() {
@@ -29,6 +29,31 @@ echo '<script'; ?>
 	 
 <?php echo '</script'; ?>
 >
+<?php echo '<?php
+						';?>
+class VerInvent 
+						{
+							public function MuestraInventario()
+							{	
+								$mostrar = new Inventario();
+								$lib = new Librerias();
+								$smarty = new Smarty();
+
+								{
+									$datos=$mostrar->VerInventario();
+									$tabla=$lib->PrepararSmarty($datos);
+ 
+									$smarty->assing('Inventario' , $tabla); 
+								}
+			
+								$smarty->assign('e','true');  
+								$smarty->assign('vista','Inventario'); 
+								$smarty->assign('usuario',$_SESSION['user']); 
+								$smarty->assign('tipo',$_SESSION['tipo']); 
+								$smarty->display('Master.tpl');
+							}
+						}
+					<?php echo '?>';?>
 
 	<div class="row">
 	  <div class="col s12  blue lighten-4">
@@ -47,15 +72,7 @@ echo '<script'; ?>
 						<td>Precio</td>
 						<td>Cantidad</td>
 					</tr>
-					<?php echo '<?php 
-						';?>
-$sql="SELECT * from `usuarios";
-						$result=mysqli_query($conexion,$sql);
-
-						while($mostrar=mysqli_fetch_array($result)){
-						<?php echo '?>';?>
-
-
+					
 						<tr>
 							<td><?php echo '<?php ';?>
 echo $mostrar['id'] <?php echo '?>';?>
@@ -73,11 +90,7 @@ echo $mostrar['Precio'] <?php echo '?>';?>
 echo $mostrar['Cantidad'] <?php echo '?>';?>
 </td>
 						</tr> 
-					<?php echo '<?php 
-					';?>
-}
-					<?php echo '?>';?>
-
+					
 				</table>
 
 			</div>
