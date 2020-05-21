@@ -22,14 +22,15 @@
 						<td>Precio</td>
 						<td>Cantidad</td>
 					</tr>
-					
+					{foreach}
 						<tr>
 							<td><?php echo $mostrar['id'] ?></td>
 							<td><?php echo $mostrar['Nombre'] ?></td>
 							<td><?php echo $mostrar['Descricion'] ?></td>
 							<td><?php echo $mostrar['Precio'] ?></td>
 							<td><?php echo $mostrar['Cantidad'] ?></td>
-						</tr> 
+						</tr>
+					{/foreach}
 					
 				</table>
 
